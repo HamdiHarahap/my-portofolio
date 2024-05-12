@@ -28,7 +28,7 @@ header .flex {
 }
 
 header {
-    padding: 2rem 12rem;
+    padding: 2rem 10rem;
     height: 70px;
 }
 
@@ -41,7 +41,7 @@ header {
 }
 
 main {
-    padding: 0 12rem;
+    padding: 0 10rem;
 }
 
 .line {
@@ -174,8 +174,7 @@ body .line-light {
 footer {
     margin-top: 5rem;
     color: #FFFFFF;
-    padding: 2rem 9rem;
-    overflow: hidden;
+    padding: 2rem 10rem;
 }
 
 .logo div {
