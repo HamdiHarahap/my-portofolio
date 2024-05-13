@@ -32,6 +32,11 @@ header {
     height: 70px;
 }
 
+header img {
+    display: none;
+    width: 30px;
+}
+
 #about {
     height: 100vh;
 }
