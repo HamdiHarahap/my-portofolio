@@ -10,15 +10,15 @@ const body = document.body
 
 themes.forEach((theme) => {
     theme.addEventListener('click', function () {
-        body.classList.toggle('dark-mode');
-        moon.classList.toggle('hidden');
-        sun.classList.toggle('flex');
+        body.classList.toggle('dark-mode')
+        moon.classList.toggle('hidden')
+        sun.classList.toggle('flex')
         ui.classList.toggle('bg-dark')
         web.classList.toggle('bg-dark')
-        Swal.fire("you change the theme!");
+        Swal.fire("you change the theme!")
 
         lines.forEach((line) => {
             line.classList.toggle('line-light')
         })
-    });
-});
+    })
+})
