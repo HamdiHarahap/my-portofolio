@@ -89,7 +89,6 @@ body .line-light {
 }
 
 .web {
-    border-radius: 20px;
     padding: 15px;
     margin-right: 15rem;
     background-color: #FFFFFF;
@@ -97,7 +96,6 @@ body .line-light {
 }
 
 .ui {
-    border-radius: 20px;
     padding: 15px;
     margin-left: 15rem;
     background-color: #FFFFFF;
