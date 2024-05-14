@@ -138,7 +138,7 @@ body .line-light {
 }
 
 .card:hover {
-    z-index: 10000;
+    z-index: 1;
     box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
 }
 
