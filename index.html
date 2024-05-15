@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portofolio</title>
+        <link rel="icon" href="assets/images/self.png">
         <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="/style/style.css">
@@ -43,7 +44,7 @@
         </header>
         <main>
             <article id="about" class="d-flex align-items-center justify-content-between">
-                <section data-aos="fade-right" data-aos-duration="1000">
+                <section data-aos="fade-right">
                     <div>
                         <h4>My name is-</h4>
                         <h1>Hamdi Harahap</h1>
@@ -54,12 +55,12 @@
                         <a href="https://www.linkedin.com/in/hamdi-harahap-a633a8292/" class="btn btn-primary">Connect with me</a>
                     </div>
                 </section>
-                <section data-aos="fade-left" data-aos-duration="1000">
+                <section data-aos="fade-left">
                     <img src="assets/images/self.png" alt="">
                 </section>
             </article>
             <div class="line"></div>
-            <article data-aos="fade-up" data-aos-duration="1000" id="skills" class="d-flex flex-column justify-content-center align-items-center gap-5">
+            <article data-aos="fade-up" id="skills" class="d-flex flex-column justify-content-center align-items-center gap-5">
                 <div>
                     <h2 class="fw-bold">Skills</h2>
                 </div>
@@ -75,11 +76,11 @@
             <div class="line"></div>
             <article id="services" class="d-flex justify-content-center align-items-center">
                 <section class="service d-flex justify-content-between align-items-center">
-                    <section data-aos="fade-down-right" data-aos-duration="1000">
+                    <section data-aos="fade-down-right">
                         <h2 class="fw-bold">What I do for my <br> customers</h2>
                         <p>Some of my services that you can <br> use for your projects!</p>
                     </section>
-                    <section data-aos="fade-down-left" data-aos-duration="1000" class="d-flex flex-column gap-4">
+                    <section data-aos="fade-down-left" class="d-flex flex-column gap-4">
                         <div class="ui rounded-5">
                             <img src="assets/logo/design.svg" alt="">
                             <h3>UI/UX Design</h3>
@@ -94,40 +95,43 @@
                 </section>
             </article>
             <div class="line"></div>
-            <article id="projects" data-aos="fade-down" data-aos-duration="1000" class="d-flex flex-column align-items-center">
+            <article id="projects" data-aos="fade-down" class="d-flex flex-column align-items-center gap-4">
                 <section class="text-center">
                     <h2 class="fw-bold">My Projects</h2>
                     <p>In this project, I explored innovative concepts to create a solution <br> that met the client's needs, while maintaining <br> an attractive aesthetic</p>
                 </section>
-                <section class="container gap-4">
-                    <div class="card">
-                        <div class="Box">
-                            <img src="assets/images/campusblend.png">
-                        </div>
-                        <div class="details">
-                            <h2>CampusBlend</h2>
-                            <p>This is a website project that I created to complete the final assignment in the second semester at my campus, Web Design course</p>
-                            <a href="https://campusblend.netlify.app/" class="btn btn-primary">Click me</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="Box">
-                            <img src="assets/images/bookshelf.png">
-                        </div>
-                        <div class="details">
-                            <h2>Bookshelf Apps</h2>
-                            <p>This website is a submission for the Dicoding Belajar Membuat Front-End Web untuk Pemula online course.</p>
-                            <a href="https://bookshelfapss.netlify.app/" class="btn btn-primary">Click me</a>
+                <section class="d-flex justify-content-around align-items-center flex-wrap row-gap-5">
+                    <div class="card rounded-4" style="width: 20rem;">
+                        <img src="assets/images/bookshelf.png" class="card-img-top rounded-top-4" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Bookshelf Apps</h5>
+                            <p class="card-text">This website is a submission for the 
+                                <a href="https://www.dicoding.com/certificates/4EXGK0O6DZRL" class="text-decoration-none">Dicoding Belajar Membuat Front-End Web untuk Pemula</a>
+                                online course.
+                            </p>
+                            <br>
+                            <a href="https://bookshelfapss.netlify.app/" class="btn btn-primary">Visit the web</a>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="Box">
-                            <img src="assets/images/hamdcourse.png">
+                    <div class="card rounded-4" style="width: 20rem;">
+                        <img src="assets/images/campusblend.png" class="card-img-top rounded-top-4" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">CampusBlend</h5>
+                            <p class="card-text">I created this website with the aim of training me in creating websites using javascript</p>
+                            <br>                        
+                            <a href="https://campusblend.netlify.app/" class="btn btn-primary">Visit the web</a>
                         </div>
-                        <div class="details">
-                            <h2>Hamd Course</h2>
-                            <p>This website is a submission for the Dicoding Belajar Dasar Pemrograman Web online course</p>
-                            <a href="https://hamd-course.netlify.app" class="btn btn-primary">Click me</a>
+                    </div>
+                    <div class="card rounded-4" style="width: 20rem;">
+                        <img src="assets/images/course.png" class="card-img-top rounded-top-4" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamd Course</h5>
+                            <p class="card-text">This website is a submission for the 
+                                <a href="https://www.dicoding.com/certificates/MRZM81G2KZYQ" class="text-decoration-none">Dicoding Belajar Dasar Pemrograman Web</a>
+                                online course.
+                            </p>
+                            <br>
+                            <a href="https://hamd-course.netlify.app" class="btn btn-primary">Visit the web</a>
                         </div>
                     </div>
                 </section>
@@ -144,30 +148,29 @@
             </div>
             <div class="logo d-flex gap-2">
                 <div>
-                <a href="https://wa.me/6281260244154">
-                    <img src="assets/logo/whatsapp.svg" alt="logo"/>
-                </a>
+                    <a href="https://wa.me/6281260244154">
+                        <img src="assets/logo/whatsapp.svg" alt="logo"/>
+                    </a>
                 </div>
                 <div>
-                <a href="https://www.instagram.com/hhmdi_/">
-                    <img src="assets/logo/instagram.svg" alt="logo"/>
-                </a>
+                    <a href="https://www.instagram.com/hhmdi_/">
+                        <img src="assets/logo/instagram.svg" alt="logo"/>
+                    </a>
                 </div>
                 <div>
-                <a href="https://github.com/HamdiHarahap">
-                    <img src="assets/logo/github.svg" alt="logo"/>
-                </a>
+                    <a href="https://github.com/HamdiHarahap">
+                        <img src="assets/logo/github.svg" alt="logo"/>
+                    </a>
                 </div>
             </div>
             <div>
                 <p class="fw-bold mt-4">Created by HamdiHarahap🚀 - &copy 2024</p>
             </div>
         </footer>
+
         <script src="/js/main.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
+        <script src="js/aos.js"></script>
     </body>
 </html>
