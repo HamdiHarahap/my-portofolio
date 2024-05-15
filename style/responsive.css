@@ -56,6 +56,10 @@
         width: 350px;
     }
 
+    #skills img {
+        filter: grayscale(0);
+    }
+
     .service {
         display: flex;
         flex-direction: column;
@@ -70,8 +74,17 @@
         box-shadow: 0px 0px 21px -10px rgba(0, 0, 0, 0.485);
     }
 
+    .card:hover {
+        transform: scale(1);
+    }
+
     footer {
         padding: 1rem 3rem 5rem;
+    }
+
+    .logo div:hover {
+        opacity: 0.7;
+        transform: scale(1)
     }
 }
 
