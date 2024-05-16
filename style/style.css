@@ -32,9 +32,12 @@ header {
     height: 70px;
 }
 
-header img {
+.list .menu {
     display: none;
-    width: 30px;
+}
+
+ul {
+    display: flex;
 }
 
 #about {

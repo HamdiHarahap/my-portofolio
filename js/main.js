@@ -22,3 +22,18 @@ themes.forEach((theme) => {
         })
     })
 })
+
+const menu = document.querySelector('.menu')
+const list = document.querySelector('.navigation') 
+
+menu.addEventListener('click',  function () {
+    list.classList.toggle('list-alive')
+})
+
+const items = document.querySelectorAll('.item')
+
+items.forEach((item) => {
+    item.addEventListener('click', function () {
+        list.classList.toggle('list-alive')
+    })
+})
