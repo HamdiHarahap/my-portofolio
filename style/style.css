@@ -32,6 +32,10 @@ header {
     height: 70px;
 }
 
+header h3 {
+    display: none;
+}
+
 .list .menu {
     display: none;
 }
