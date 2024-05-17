@@ -22,6 +22,10 @@
         flex-direction: column;
     }
 
+    header h3 {
+        display: flex;
+    }
+
     .themes {
         display: none;
     }
