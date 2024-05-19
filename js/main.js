@@ -23,11 +23,17 @@ themes.forEach((theme) => {
     })
 })
 
-const menu = document.querySelector('.menu')
+const menus = document.querySelectorAll('.menu')
 const list = document.querySelector('.navigation') 
+const open = document.querySelector('.open')
+const close = document.querySelector('.close')
 
-menu.addEventListener('click',  function () {
-    list.classList.toggle('list-alive')
+menus.forEach((menu) => {
+    menu.addEventListener('click', function () {
+        list.classList.toggle('list-alive')
+        open.classList.toggle('off')
+        close.classList.toggle('on')
+    })
 })
 
 const items = document.querySelectorAll('.item')
