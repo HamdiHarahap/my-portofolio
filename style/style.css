@@ -49,7 +49,8 @@ ul {
 }
 
 #about img {
-    width: 450px;
+    width: 320px;
+    box-shadow: -2px 14px 18px 7px rgba(0,0,0,0.75); 
 }
 
 main {
