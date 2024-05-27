@@ -15,7 +15,6 @@ themes.forEach((theme) => {
         sun.classList.toggle('flex')
         ui.classList.toggle('bg-dark')
         web.classList.toggle('bg-dark')
-        Swal.fire("you change the theme!")
 
         lines.forEach((line) => {
             line.classList.toggle('line-light')
